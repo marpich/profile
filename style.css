@@ -1,0 +1,97 @@
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.5)), url("https://picsum.photos/id/1041/1000/1000");
+  background-size: cover;
+}
+
+#banner {
+  text-align: center;
+  margin: 50px;
+}
+
+#banner h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  color: black;
+  font-size: 40px
+}
+
+#banner p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+}
+
+#logo {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 150px;
+  border-style: solid;
+  border-color:darkgray;
+}
+
+#description {
+  margin: 0px auto;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 500px;
+}
+
+#description h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+#description p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+footer h4 {
+  font-size: 18px;
+  text-decoration: overline;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 23px;
+  color: black;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 400px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 400px;
+}
+
+main {
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+main a {
+  margin: 30px auto;
+  display: inline-block;
+  color: white;
+  background-color: rgb(18, 46, 71, 0.8);
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
